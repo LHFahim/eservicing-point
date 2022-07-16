@@ -57,7 +57,8 @@ body {
 
 #tagline {
   font-size: 20px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgba(245, 245, 245, 0.5);
+  color: rgba(245, 245, 245, 0.5);
   padding: 0 20px 5px;
   font-family: "Montserrat", sans-serif;
 }
@@ -96,10 +97,9 @@ body {
 #landing-image-4 {
   width: 10%;
   position: absolute;
-  right: 200px;
-  top: 100px;
-
-  /* transform: rotate(-30deg); */
+  right: 150px;
+  top: 250px;
+  transform: rotate(30deg);
 }
 
 /* navbar section */
